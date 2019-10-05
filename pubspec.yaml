@@ -11,7 +11,7 @@ description: Application to buy bus ticket using SMS in Fribourg (Switzerland)
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 4.0.3+17
+version: 4.0.4+18
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -30,6 +30,7 @@ dependencies:
   after_layout: ^1.0.7
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.7.3"
   flutter_test:
     sdk: flutter
 
@@ -73,3 +74,8 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/icon/icon.png"
